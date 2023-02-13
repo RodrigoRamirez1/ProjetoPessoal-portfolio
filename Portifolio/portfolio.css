@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body * {
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+body {
+  background: url(./assets/bg-mobile.jpg) no-repeat center/cover;
+}
+
+h1 {
+  margin: 30px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.base {
+  display: flex;
+  justify-content: space-around;
+  margin: 56px auto 0px;
+}
+
+.base > div {
+  /* margin-bottom: 20px; */
+  width: 350px;
+  height: 250px;
+  background: white;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.base > div:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid white;
+  transition: background 0.2s;
+}
+
+.imagens {
+  width: 348px;
+  height: 200px;
+  border-radius: 16px 16px 0px 0px;
+  border: 1px solid white;
+}
+
+.fonte {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.link {
+  text-decoration: none;
+  
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: 24px;
+}
+
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  transition: background 0.2s;
+  border-radius: 50%;
+}
+
+#social-links a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+footer {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 14px;
+}

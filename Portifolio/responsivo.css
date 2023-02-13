@@ -1,0 +1,14 @@
+@media (max-width: 1060px) {
+  .base {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .base > div {
+    margin-bottom: 20px;
+  }
+
+  .espacamento {
+    margin-top: 0px;
+  }
+}
