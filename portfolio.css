@@ -31,7 +31,8 @@ body * {
 }
 
 body {
-  background: var(--bg-url) no-repeat center/cover;
+  /* background: var(--bg-url) no-repeat center/cover; */
+  background: linear-gradient(#240b36, #c31432, #240b36);
 }
 
 h1 {
