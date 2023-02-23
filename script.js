@@ -9,3 +9,8 @@
 //     html.classList.toggle("root")
 //   }
 // }
+function toggleMode() {
+  const html = document.documentElement
+
+  html.classList.toggle("light")
+}
