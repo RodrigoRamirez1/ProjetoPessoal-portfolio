@@ -15,10 +15,10 @@
 
 @media (min-width: 700px) {
   :root {
-   --bg-gra: linear-gradient(#240b36, #c31432, #240b36);
+   --bg-gra: linear-gradient(#0f0c29, #302b63, #24243e);
   }
 
   .light {
-      --bg-gra: linear-gradient( #BBD2C5, #536976, #292E49);
+      --bg-gra: linear-gradient(#ffffff, #7d79ad);
   }
 }

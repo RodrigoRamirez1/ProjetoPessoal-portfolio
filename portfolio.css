@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-gra: linear-gradient(#240b36, #c31432, #240b36);
+  --bg-gra: linear-gradient(#0f0c29, #302b63, #24243e);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.05);
@@ -15,7 +15,7 @@
 
 .light {
   --text-color: black;
-    --bg-gra: linear-gradient( #BBD2C5, #536976, #292E49);
+    --bg-gra: linear-gradient(#ffffff, #7d79ad);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -53,7 +53,7 @@ h3 {
   width: 32px;
   height: 32px;
   background: white no-repeat center;
-  border: 0;
+  border: 2px solid gray;
   border-radius: 50%;
 
   position: absolute;
