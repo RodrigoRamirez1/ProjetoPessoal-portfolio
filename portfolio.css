@@ -33,8 +33,19 @@ body {
   background: var(--bg-gra) no-repeat center/cover;
 }
 
+#cabecalho {
+  position: fixed;
+  background: #0f0c29;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  padding-bottom: 20px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
 h1 {
-  margin: 30px;
+  margin: 20px;
   text-align: center;
 }
 
@@ -42,7 +53,7 @@ h3 {
   text-align: center;
 }
 
-#switch  {
+/* #switch  {
   position: relative;
   width: 64px;
 
@@ -82,12 +93,12 @@ h3 {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
-}
+} */
 
 .base {
   display: flex;
   justify-content: space-around;
-  margin: 56px auto 0px;
+  margin: 156px auto 0px;
 }
 
 .base > div {
