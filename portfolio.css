@@ -99,7 +99,7 @@ h3 {
 .base {
   display: flex;
   justify-content: space-around;
-  margin: 156px auto 0px;
+  margin: 180px auto 0px;
 }
 
 .base > div {
@@ -117,6 +117,9 @@ h3 {
   
 }
 
+.espacamento {
+  margin-top: 40px;
+}
 .imagens {
   width: 342px;
   height: 200px;
@@ -161,7 +164,7 @@ footer {
   font-size: 14px;
 }
 
-@keyframes slide-in {
+/* @keyframes slide-in {
   from {
     left: 0;
   }
@@ -177,4 +180,4 @@ footer {
   to {
     left: 0;
   }
-}
+} */

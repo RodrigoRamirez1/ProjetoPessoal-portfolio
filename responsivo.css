@@ -4,12 +4,13 @@
   }
 
   .base {
+    margin-top: 200px;
     flex-direction: column;
     align-items: center;
   }
   
   .base > div {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   }
 
   .espacamento {
