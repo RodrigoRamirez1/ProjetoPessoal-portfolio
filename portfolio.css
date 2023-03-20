@@ -6,14 +6,14 @@
 
 :root {
   --text-color: white;
-  --bg-gra: linear-gradient(#0f0c29, #302b63, #24243e);
-  --stroke-color: rgba(255, 255, 255, 0.5);
+  --bg-gra: linear-gradient(#232526, #414345);
+  --stroke-color: rgba(153,51,153);
   --surface-color: rgba(255, 255, 255, 0.1);
-  --surface-color-hover: rgba(255, 255, 255, 0.05);
+  --surface-color-hover: #800080;
   --highlight-color: rgba(255, 255, 255, 0.2);
 }
 
-.light {
+/* .light {
   --text-color: black;
     --bg-gra: linear-gradient(#ffffff, #7d79ad);
   --stroke-color: rgba(0, 0, 0, 0.5);
@@ -21,7 +21,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
 
-}
+} */
 
 
 body * {
@@ -37,7 +37,7 @@ body {
   position: fixed;
   background: #fff;
   opacity: 0.8;
-  border: 1px solid black;
+  border-bottom:  3px solid var(--stroke-color);
   padding-bottom: 20px;
   width: 100%;
   top: 0px;
@@ -108,18 +108,18 @@ h3 {
   height: 250px;
   border-radius: 16px;
   background: var(--surface-color);
-  border: 1px solid var(--stroke-color);
+  border: 4px solid var(--stroke-color);
   transition: background 0.2s;
 }
 
 .base > div:hover {
   background: var(--surface-color-hover);
-  border: 1px solid var(--text-color);
+  /* border: 1px solid var(--text-color); */
   
 }
 
 .imagens {
-  width: 348px;
+  width: 342px;
   height: 200px;
   border-radius: 16px 16px 0px 0px;
   border: 1px solid var(--text-color);

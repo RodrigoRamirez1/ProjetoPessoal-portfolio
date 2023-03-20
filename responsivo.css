@@ -1,4 +1,8 @@
 @media (max-width: 1060px) {
+  .cabecalho {
+    padding-bottom: 10px;
+  }
+
   .base {
     flex-direction: column;
     align-items: center;
@@ -15,10 +19,6 @@
 
 @media (min-width: 700px) {
   :root {
-   --bg-gra: linear-gradient(#0f0c29, #302b63, #24243e);
-  }
-
-  .light {
-      --bg-gra: linear-gradient(#ffffff, #7d79ad);
+   --bg-gra: linear-gradient(#232526, #414345);
   }
 }
