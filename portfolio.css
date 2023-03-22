@@ -34,24 +34,28 @@ body {
 }
 
 #cabecalho {
-  position: fixed;
-  background: linear-gradient(#993399, #851d86);
-  opacity: 0.8;
+  background: linear-gradient(#800080, #ff02ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   padding-bottom: 20px;
-  width: 100%;
   top: 0px;
   left: 0px;
 }
 
 h1 {
-  color: white;
   margin: 20px;
   text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.1;
 }
 
 h3 {
-  color: white;
   text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.1;
 }
 
 /* #switch  {
@@ -99,7 +103,7 @@ h3 {
 .base {
   display: flex;
   justify-content: space-around;
-  margin: 180px auto 0px;
+  margin: 100px auto 0px;
 }
 
 .base > div {
