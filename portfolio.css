@@ -129,7 +129,7 @@ h3 {
   width: 349px;
   height: 200px;
   border-radius: 16px 16px 0px 0px;
-  border: 1px solid var(--text-color);
+  /* border: 1px solid var(--text-color); */
 }
 
 .fonte {
