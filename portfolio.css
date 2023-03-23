@@ -5,11 +5,11 @@
 }
 
 :root {
-  --text-color: white;
-  --bg-gra: linear-gradient(#232526, #414345);
+  --text-color: black;
+  --bg-gra: rgb(240, 234, 234);
   --stroke-color: rgba(153,51,153);
   --surface-color: rgba(255, 255, 255, 0.1);
-  --surface-color-hover: #800080;
+  --surface-color-hover: rgba(0, 0, 0, 0.295);
   --highlight-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -34,36 +34,30 @@ body {
 }
 
 #cabecalho {
-  background-image: url(./assets/cabeçalho2.jpg);
+  background-image: url(./assets/cabeçalho3.png);
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: 100%;
-  padding-bottom: 20px;
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 400px;
-}
-
-.textSobre {
-  margin-top: auto;
+  height: 100vh;
 }
 
 h1 {
-  color: whitesmoke;
+  font-family: 'Monoton', cursive;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  color: rgb(255, 255, 255);
   text-align: center;
-  margin: 20px;
-  font-size: 3rem;
   font-weight: bold;
-  line-height: 1.1;
+  font-size: 5rem;
 }
 
 h3 {
+  font-size: 3rem;
   color: whitesmoke;
   text-align: center;
-  font-size: 2rem;
   font-weight: bold;
-  line-height: 1.1;
 }
 
 /* #switch  {
@@ -111,7 +105,8 @@ h3 {
 .base {
   display: flex;
   justify-content: space-around;
-  margin: 100px auto 0px;
+  margin-top: 0%;
+  margin: 150px auto 0px;
 }
 
 .base > div {
@@ -131,7 +126,7 @@ h3 {
 }
 
 .espacamento {
-  margin-top: 40px;
+  margin-top: 90px;
 }
 .imagens {
   width: 350px;
