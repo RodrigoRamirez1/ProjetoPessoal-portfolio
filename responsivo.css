@@ -1,12 +1,12 @@
 @media (max-width: 1060px) {
   
   h1 {
-    padding-top: 40%;
+    padding-top: 5em;
     font-size: 3rem;
   }
 
   h3 {
-    padding: 10%;
+    padding: 1em;
     font-size: 2rem;
   }
 

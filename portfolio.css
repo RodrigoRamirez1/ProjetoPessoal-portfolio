@@ -34,8 +34,8 @@ body {
 }
 
 #cabecalho {
-  background-image: url(./assets/cabeçalho3.png);
-  background-position: center top;
+  background-image: url(./assets/bg3.jpg);
+  background-position: 100%;
   background-repeat: no-repeat;
   top: 0px;
   left: 0px;
@@ -134,7 +134,6 @@ h3 {
   border-radius: 16px 16px 0px 0px;
   /* border: 1px solid var(--text-color); */
 }
-
 .fonte {
   text-align: center;
   font-size: 20px;
